@@ -101,6 +101,8 @@ class Template {
 
 	/**
 	 * Returns the template content
+	 *
+	 * @return string The string representation of the class
 	 */
 	public function __toString () {
 		$source = $this->source;
@@ -110,4 +112,3 @@ class Template {
 		return $source;
 	}
 }
-?>
